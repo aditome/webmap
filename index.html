@@ -31,329 +31,329 @@
         <div id="map"></div>
         <script>
         
-               var map = L.map('map').setView([39.666667, -4.05],4);
+               var map = L.map('map').setView([-4.05,39.666667],4);
               L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=gRxFqHtvw8n0WyupXiUo',{
                     attribution:'<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
                }).addTo(map);
-               var marker = L.marker([39.666667, -4.05]).addTo(map);
+               var marker = L.marker([ -4.05,39.666667]).addTo(map);
                marker.bindPopup("<b> Cuisine: Bakery</b><br>Name: Bake Shop").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
             
-               var circle = L.circle([39.460278, -4.174444],{
+               var circle = L.circle([ -4.174444,39.460278],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30,
                }).addTo(map);
                circle.bindPopup("<b> Cuisine: Hamburgers</b><br>Name: Wendy'S").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([39.85, -3.633333],{
+               var circle = L.circle([-3.633333,39.85],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b> Cuisine: Irish</b><br>Name: Dj Restaurant").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([40.033333, -1.5],{
+               var circle = L.circle([-1.5,40.033333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b> Cuisine: American</b><br>Name: Riviera Caterer").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([40.902222, -2.269444],{
+               var circle = L.circle([-2.269444,40.902222],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Jewish/Kosher</b><br>Name: Tov Kosher Kitchen").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([38.377778, -3.504722],{
+               var circle = L.circle([-3.504722,38.377778],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name:Brunos On The Boulevard").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([39.658333, -0.456944],{
+               var circle = L.circle([-0.456944,39.658333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Jewish/Kosher</b><br>Name: Kosher Island").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([40.05, 1.75],{
+               var circle = L.circle([1.75,40.05],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Delicatessen</b><br>Name: Wilken'S Fine Food").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([41.833333, 3.916667],{
+               var circle = L.circle([3.916667,41.833333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name: Regina Caterers").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.983333, 2.333333],{
+               var circle = L.circle([ 2.333333,37.983333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Ice Cream, Gelato, Yogurt, Ices </b><br>Name:Taste The Tropics Ice Cream").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.583333, 0.35],{
+               var circle = L.circle([ 0.35,37.583333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name: Wild Asia").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.65, 0.05],{
+               var circle = L.circle([ 0.05,37.65],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name: C & C Catering Service").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.65, -0.333333],{
+               var circle = L.circle([-0.333333,37.65,],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Chinese</b><br>Name: May May Kitchen").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.45, -0.533333],{
+               var circle = L.circle([-0.533333,37.45],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name: 1 East 66Th Street Kitchen").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([38.016667, -1.366667],{
+               var circle = L.circle([-1.366667,38.016667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Jewish/Kosher</b><br>Name:Seuda Foods").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.266667, -1.516667],{
+               var circle = L.circle([-1.516667,37.266667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Ice Cream, Gelato, Yogurt, Ices</b><br>Name: Carvel Ice Cream").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.633333, -1.783333],{
+               var circle = L.circle([-1.783333,37.633333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Ice Cream, Gelato, Yogurt, Ices</b><br>Name: Carvel Ice Cream").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([36.633333, -0.45],{
+               var circle = L.circle([-0.45,36.633333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Delicatessen</b><br>Name:Nordic Delicacies").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([36.95, -0.416667],{
+               var circle = L.circle([-0.416667,36.95],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name: Glorious Food").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.283333, -0.5],{
+               var circle = L.circle([-0.5,37.283333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name: The Movable Feast").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.15, -0.716667],{
+               var circle = L.circle([-0.716667,37.15],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Delicatessen</b><br>Name:Sal'S Deli").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([36.816667, -1.166667],{
+               var circle = L.circle([-1.166667,36.816667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Delicatessen</b><br>Name:Bully'S Deli").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.6, 3.116667],{
+               var circle = L.circle([3.116667,35.6],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Delicatessen</b><br>Name: Steve Chu'S Deli & Grocery").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.116667, 1.233333],{
+               var circle = L.circle([ 1.233333,35.116667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: chicken</b><br>Name: Harriet'S Kitchen").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([36.7, 1.1],{
+               var circle = L.circle([ 1.1,36.7],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name:P & S Deli Grocery").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.283333, 0.516667],{
+               var circle = L.circle([0.516667,35.283333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: American</b><br>Name:Angelika Film Center").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.0, 1.016667],{
+               var circle = L.circle([ 1.016667,35.0],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Hamburgers</b><br>Name: White Castle").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.508333, 0.673056],{
+               var circle = L.circle([ 0.673056,35.508333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine: Chinese</b><br>Name: Ho Mei Restaurant").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.166667, 0.333333],{
+               var circle = L.circle([ 0.333333,35.166667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Turkish</b><br>Name: The Country Cafe").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.75, 0.5],{
+               var circle = L.circle([ 0.5,35.75],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Caribbean</b><br>Name: Shashemene Int'L Restaura").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([37.066667, 0.016667],{
+               var circle = L.circle([ 0.016667,37.066667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:American</b><br>Name: Downtown Deli").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([36.066667, -0.3],{
+               var circle = L.circle([-0.3,36.066667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Ice Cream, Gelato, Yogurt, Ices</b><br>Name: Carvel Ice Cream").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.866667, -1.083333],{
+               var circle = L.circle([-1.083333,35.866667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Donuts</b><br>Name: Dunkin' Donuts").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([36.783333, -1.85],{
+               var circle = L.circle([ -1.85,36.783333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:American</b><br>Name: Mejlander & Mulgannon").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.3, -0.366667],{
+               var circle = L.circle([-0.366667,35.3],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Bakery</b><br>Name: Olive'S").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([35.35, -0.783333],{
+               var circle = L.circle([-0.783333,35.35],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Chinese</b><br>Name: Happy Garden").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.75, 0.283333],{
+               var circle = L.circle([ 0.283333,34.75],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:American</b><br>Name: Cafe Metro").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.725, 0.05],{
+               var circle = L.circle([ 0.05,34.725],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Delicatessen</b><br>Name: Tony'S Deli").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.566667, 0.566667],{
+               var circle = L.circle([ 0.566667,34.566667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Sandwiches/Salads/Mixed Buffet</b><br>Name: Lexler Deli").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.125, 0.453056],{
+               var circle = L.circle([ 0.453056,34.125],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Delicatessen</b><br>Name: Bagels N Buns").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.283333, 0.066667],{
+               var circle = L.circle([ 0.066667,34.283333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Bagels/Pretzels</b><br>Name: Hot Bagels").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.75, -0.1],{
+               var circle = L.circle([-0.1,34.75],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:American</b><br>Name: Snack Time Grill").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.45, -0.516667],{
+               var circle = L.circle([-0.516667,34.45],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Continental</b><br>Name: Lorenzo & Maria'S").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.833333, -0.666667],{
+               var circle = L.circle([-0.666667,34.833333],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:Pizza</b><br>Name: Domino'S Pizza").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.766667, -0.683333],{
+               var circle = L.circle([ -0.683333,34.766667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:American</b><br>Name: Berkely").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([34.914, -0.521],{
+               var circle = L.circle([-0.521,34.914],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
                    radius:30
                }).addTo(map);
                circle.bindPopup("<b>Cuisine:American</b><br>Name: Sonny'S Heros").on('mouseover',function(e){this.openPopup()}).on('mouseout',function(e){this.closePopup()});
-               var circle = L.circle([36.816667, -1.283333],{
+               var circle = L.circle([ -1.283333,36.816667],{
                    color:'red',
                    fillColor:'black',
                    fillOpacity:0.5,
