@@ -1,2 +1,2 @@
 map
-https://aditome.github.io/webmap/
+https://aditome.github.io/webmap1/
